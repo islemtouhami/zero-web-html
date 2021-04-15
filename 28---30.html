@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <div>
+           <label id="user" for="">user</label><br>
+           <input  type="text" name="user" autofocus minlength="5" maxlength="20" >
+        </div>
+        <div>
+           <label for="">email</label><br>
+            <input type="email" value="o@o.com" name="email" readonly>
+        </div>
+        <div>
+            <input type="hidden" value="b92f1fc2fce391ad7af633723afd3055" name="Token">
+        </div>
+        <hr>
+        <div>
+            <input id="Business" type="radio" name="job" value="Business" checked>
+            <label for="Business">Business</label>
+        </div>
+        <div>
+            <input id="Back-End Developer" type="radio" name="job" value="Back-End Developer">
+            <label for="Back-End Developer">Back-End Developer</label>
+        </div>
+        <div>
+            <input id="Front-End Developer" type="radio" name="job" value="Front-End Developer">
+            <label for="Front-End Developer">Front-End Developer</label>
+        </div>
+        <hr>
+        <div>
+            <input id="Advanced Search" type="checkbox" name="skills" value="Advanced Search" checked>
+            <label for="Advanced Search">Advanced Search</label>
+        </div>
+        <div>
+            <input id="Logical Thinking" type="checkbox" name="skills" value="Logical Thinking">
+            <label for="Logical Thinking">Advanced Search</label>
+        </div>
+        <div>
+            <input id="Problem Solving" type="checkbox" name="skills" value="Problem Solving">
+            <label for="Problem Solving">Advanced Search</label>
+        </div>
+        <div>
+            <label for="language">language</label>
+            <select name="language" id="language">
+                <optgroup label="php">
+                    <option value="1">7v</option>
+                    <option value="2">8v</option>
+                    <option value="3">9v</option>
+                </optgroup>
+                <optgroup label="pyton">
+                    <option value="4">3v</option>
+                    <option value="5">4v</option>
+                    <option value="6">5v</option>
+                </optgroup>
+            </select>
+        </div>
+        <hr>
+        <textarea name="text" id="1" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        <hr>
+        <br>
+            <input type="submit"value="send">
+            <input type="reset" value="Empty" >
+    </form>
+</body>
+</html>
